@@ -16,13 +16,14 @@
 
 ## Running Tests
 
-- To run the tests once, use:
+- To run e2e tests in watch mode, use:
   ```sh
   make test-e2e
   ```
-- To run the tests in watch mode, use:
+- To run e2e tests once, make sure server is running then run:
+
   ```sh
-  cd test-app && npm run test:watch
+  cd test-app && npm run test
   ```
 
 ## License
