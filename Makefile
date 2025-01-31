@@ -22,5 +22,5 @@ stop:
 test-e2e: start
 	cd $(TEST_APP_DIR) && npm install && npm run test:watch
 
-test-full: start
-	cd $(APP_DIR) && npm run test && cd .. && $(MAKE) test-e2e
+test-full: stop start-infra
+	cd $(APP_DIR) && npm run test && cd .. && $(MAKE) stop &&$(MAKE) test-e2e
