@@ -34,3 +34,6 @@ app.listen(PORT, () => {
     } mode on port ${PORT}`
   );
 });
+
+
+export default app

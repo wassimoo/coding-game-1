@@ -12,7 +12,7 @@
 - `make start-dev`: Start the infrastructure and run the development server.
 - `make stop`: Stop all running services.
 - `make test-e2e`: Start the services, install dependencies, and run end-to-end tests in watch mode.
-- `make test-full`: Start the services, run application tests, and then run end-to-end tests.
+- `make test-full`: Start the services, run application tests (unit, integration), and then run end-to-end tests.
 
 ## Running Tests
 
